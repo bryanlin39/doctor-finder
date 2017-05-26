@@ -6,7 +6,7 @@
 
 ## Description
 
-Doctor Finder is a web application that utilizes the BetterDoctor API to search for doctors in the Seattle area matching the user query. Users can search for doctors based on either doctor name and/or medical issue requiring attention. The application is built with JavaScript and Node.js, and uses data from the BetterDoctor API. Access the webpage directly from: https://bryanlin39.github.io/doctor-finder.
+Doctor Finder is a web application that utilizes the BetterDoctor API to search for doctors in the Seattle area matching the user query. Users can search for doctors based on either doctor name and/or medical issue requiring attention. The application is built with JavaScript and Node.js, and uses data from the BetterDoctor API.
 
 ## Setup/Installation Requirements
 

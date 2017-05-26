@@ -8,13 +8,12 @@ var displayResults = function(doctors) {
 };
 
 $(document).ready(function() {
-  var searchObject = new Doctor('testname', 'testpractice', 'testaddress', 'testbio');
+  var searchObject = new Doctor();
   $('#doctor-form').submit(function() {
     event.preventDefault();
     var inputtedName = $('#name').val();
     var inputtedSpecialty = $('#specialty').val();
 
     searchObject.getDoctors(inputtedName, inputtedSpecialty, displayResults);
-    console.log(searchObject);
   });
 });
